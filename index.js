@@ -6,7 +6,7 @@ fetch('https://jsonplaceholder.typicode.com/posts/1', {
 })
     .then(response => {
         const blogPost = document.createElement('div');
-        div.innerHTML = text;
+        div.innerHTML = title.json;
         document.body.appendChild('div');
     })
         
