@@ -6,9 +6,12 @@ fetch('https://jsonplaceholder.typicode.com/posts/1', {
 })  
     .then(response => response.json)
     .then(json => {
-        const blogPost = document.createElement('div');
-        div.innerHTML = title.json;
-        document.body.appendChild('div');
+        json.forEach (blogPost => {
+            const blogPost = document.createElement('div');
+            div.innerHTML = title.json;
+            document.body.appendChild('div');
+        })
+        
     })
         
         
