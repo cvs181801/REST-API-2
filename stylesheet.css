@@ -1,4 +1,7 @@
+
+body {
+    background: black;
+}
 div {
-    background-color: rgb(139, 211, 245);
-    font: white;
+        color: whitesmoke;
 }
