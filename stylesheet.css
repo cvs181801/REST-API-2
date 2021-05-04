@@ -1,7 +1,9 @@
 
 body {
     background: black;
+    color: whitesmoke;
 }
 div {
         color: whitesmoke;
+        font-family: cursive;
 }
