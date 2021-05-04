@@ -1,4 +1,4 @@
-fetch('https://jsonplaceholder.typicode.com/posts/1') 
+fetch('https://jsonplaceholder.typicode.com/posts') 
  //   method: 'POST',
  //   body: json.stringify({
 //        name: 'title',
