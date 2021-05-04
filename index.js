@@ -9,7 +9,7 @@ fetch('https://jsonplaceholder.typicode.com/posts')
         json.forEach (post => {
             const div = document.createElement('div');
             div.innerHTML = title.json;
-            document.body.appendChild('div');
+            document.body.appendChild(div);
         }) 
     })
         
