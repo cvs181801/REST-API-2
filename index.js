@@ -36,7 +36,7 @@
     //     });
     //   });
 
-    //const div = document.querySelector('div')
+    const div = document.querySelector('div')
 
 fetch("https://jsonplaceholder.typicode.com/posts")
   .then((res) => res.json())
