@@ -41,16 +41,18 @@
 //   });
 
 
-
-let html = "";
-fetch("https://jsonplaceholder.typicode.com/posts")
-     .then((res) => res.json())
-     .then((data) => {
-         data.forEach((item) => {
+async function getPosts() {
+const postsPromise = await fetch("https://jsonplaceholder.typicode.com/posts");
+const posts = await postsPromise.json();
+     let html = "";
+         posts.forEach(post => {
              html += `
              <div class="post">
              <h3>${item.title}</h3>
              <p><em>${item.body}</em></p>
              `;
          })
-        })
+    }
+        
+
+    getPosts()
