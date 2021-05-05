@@ -12,8 +12,9 @@
     .then(res => res.json())
     .then(data => {
         data.forEach(post => {
+            n = 0;
             const newDiv = document.createElement('div');
-            newDiv.innerHTML = `- ${post.title}`;
+            newDiv.innerHTML = `${n++}, ${post.title}`;
             document.body.appendChild(newDiv);
         }) 
     })
