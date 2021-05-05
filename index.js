@@ -13,7 +13,7 @@
     .then(data => {
         data.forEach(post => {
             const newDiv = document.createElement('div');
-            newDiv.innerHTML = `⌲ ${post.title}`;
+            newDiv.innerHTML = `~ ${post.title}`;
             document.body.appendChild(newDiv);
         }) 
     })
