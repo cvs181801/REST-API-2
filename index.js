@@ -35,7 +35,7 @@ fetch("https://jsonplaceholder.typicode.com/posts")
   .then((data) => {
     data.forEach((item, index) => {
       const paragraph = document.createElement("p");
-      paragraph.innerText = `${index + 1}. ${item.title.toUpperCase()}.
+      paragraph.innerText = `${index + 1}. ${item.title.charAt(0).toUpperCase() + title.slice(1).toLowerCase()}.
       "${item.body}"`;
       div.appendChild(paragraph)
     });
