@@ -10,7 +10,7 @@ div {
 
 p:hover {
     transform: scale(1.01);
-    box-shadow: 0 0 12px rgba(rgb(3, 197, 245), 0.2);
+    box-shadow: 0 0 12px rgba(rgb(248, 250, 250), 0.2);
     cursor: pointer;
   }
 
