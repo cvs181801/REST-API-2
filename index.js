@@ -28,31 +28,31 @@
 
     //Grab the data from the Typicode URL and display it.
 
-//     const div = document.querySelector('div')
+    const div = document.querySelector('div')
 
-// fetch("https://jsonplaceholder.typicode.com/posts")
-//   .then((res) => res.json())
-//   .then((data) => {
-//     data.forEach((item, index) => {
-//       const paragraph = document.createElement("p");
-//       paragraph.innerText = `${index + 1}. ${item.title}`;
-//       div.appendChild(paragraph)
-//     });
-//   });
+fetch("https://jsonplaceholder.typicode.com/posts")
+  .then((res) => res.json())
+  .then((data) => {
+    data.forEach((item, index) => {
+      const paragraph = document.createElement("p");
+      paragraph.innerText = `${index + 1}. ${item.title}`;
+      div.appendChild(paragraph)
+    });
+  });
 
 
-async function getPosts() {
-const postsPromise = await fetch("https://jsonplaceholder.typicode.com/posts");
-const posts = await postsPromise.json();
-     let html = "";
-         posts.forEach(post => {
-             html += `
-             <div class="post">
-             <h3>${item.title}</h3>
-             <p><em>${item.body}</em></p>
-             `;
-         })
-    }
+// async function getPosts() {
+// const postsPromise = await fetch("https://jsonplaceholder.typicode.com/posts");
+// const posts = await postsPromise.json();
+//      let html = "";
+//          posts.forEach(post => {
+//              html += `
+//              <div class='post'>
+//              <h3>${item.title}</h3>
+//              <p><em>${item.body}</em></p>
+//              `;
+//          })
+//     }
         
 
-    getPosts()
+//     getPosts()
