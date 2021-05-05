@@ -47,3 +47,5 @@ fetch("https://jsonplaceholder.typicode.com/posts")
       div.appendChild(paragraph)
     });
   });
+
+  //4 different solutions, same result
