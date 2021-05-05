@@ -7,3 +7,14 @@ div {
         color: whitesmoke;
         font-family: "lucida handwriting", cursive, serif;
 } 
+
+.post {
+    color: whitesmoke;
+    font-family: "lucida handwriting", cursive, serif;
+}
+
+.post:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 12px rgba(rgb(3, 197, 245), 0.2);
+    cursor: pointer;
+  }
