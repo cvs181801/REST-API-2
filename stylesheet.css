@@ -31,8 +31,14 @@ p:hover {
       height: 500px;
       background-color: green;
       border-radius: 5px;
+      text-align: center;
+      padding: 20px;
   }
 
+  input {
+      width: 50%;
+      display: block;
+  }
 /* .post {
     color: whitesmoke;
     font-family: "lucida handwriting", cursive, serif;
