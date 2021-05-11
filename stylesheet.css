@@ -15,7 +15,7 @@ p {
 }
 
 p > * {
-    flex: 1 1 33%;
+    flex: 1 1 10em;
     flex-wrap: wrap;
 }
 
