@@ -8,6 +8,11 @@ div {
         font-family: "lucida handwriting", cursive, serif;
 } 
 
+p {
+    display: flex;
+    
+}
+
 p:hover {
     transform: scale(1.01);
     box-shadow: 0 0 12px rgba(rgb(1, 39, 39), 0.2);
