@@ -10,7 +10,7 @@ div {
 
 p {
     display: flex;
-    
+    position: absolute;
 }
 
 p:hover {
